@@ -18,6 +18,7 @@
 __This is bold text__
 *This is italic text*
 _This is italic text_
+
 ~~strikethrough text~~
 ## Block quotes
 
