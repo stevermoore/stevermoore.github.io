@@ -93,6 +93,6 @@ Right aligned columns
 [link with title](http://dev.steverm.info/ "Some cool title!")
 
 ## Images
-~[Minion]{https://octodex.github.com/images/minion.png)
+![Minion]{https://octodex.github.com/images/minion.png)
 
 ## The End!
