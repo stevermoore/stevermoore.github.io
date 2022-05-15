@@ -12,14 +12,14 @@ The real challenge is in the collection and storage of the data. The good news i
 ## M365 Reporting Architecture
 I use the below components to collect and store data from M365.
 ![M365 Reporting Architecture](/static/images/1-1.png)
-#####M365 Reporting - Cloud SQL
+##### M365 Reporting - Cloud SQL
 
-###The components
+### The components
 
-####Microsoft Graph
+#### Microsoft Graph
 Graph is used as the interface to the M365 applications. Graph provides a standardised aproach to querying cloud data using REST queries. I'll talk plenty more about Graph in this series.
 
-####Azure Automation
+#### Azure Automation
 The next component of the architecture is the mechanism for collecting data. You can collect data using on prem servers and using scheduled tasks, or you can collect data using Azure Automation run books. Both approaches have pros and cons but are equally effective. Azure Automation provides a great framework for running jobs in Azure and is pretty easy to get your head across. One of the nice things  I like about Azure Automation is you can use either Powershell or Python to create your runbooks, so you can use which scripting language works best for you.
 
 #### Azure AD
